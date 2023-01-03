@@ -1,0 +1,108 @@
+body {
+  background: rgb(255, 189, 189);
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background: rgb(255, 189, 189);
+}
+.logo {
+  margin: 20px;
+  transition: 1s all;
+}
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+.contenedor {
+  width: 100%;
+  background: rgb(255, 189, 189);
+}
+.contenido {
+  display: inline-block;
+  width: 50%;
+  margin: 50px 50px 15px 150px;
+  vertical-align: top;
+}
+.parrafo {
+  width: 90%;
+  height: 250px;
+  margin: 0 0 20px 0;
+  background-color: rgb(249, 217, 217);
+  border-radius: 2em;
+  border: none;
+  border-color: #ffffff;
+  padding: 2em;
+  outline: none;
+  border: none;
+}
+.boton {
+  width: 100%;
+  display: inline-block;
+}
+.Encriptar,
+.Desencripta {
+  width: 40%;
+  margin: 40px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 1em;
+  transition: 1s all;
+  cursor: pointer;
+}
+.resultados {
+  display: inline-block;
+  background-color: rgb(192, 220, 245);
+  width: 20%;
+  height: 450px;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 2em;
+}
+.mensajeEncriptado {
+  width: 90%;
+  margin: 1em;
+  background-color: rgb(192, 220, 245);
+  outline: none;
+  border: none;
+}
+
+.lupa {
+  display: inline;
+  width: 80%;
+  margin: 50px 15px;
+}
+.Copiar {
+  width: 100%;
+  font-size: 22px;
+  background-color: rgb(41, 41, 175);
+  color: #ffffff;
+  border-radius: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s all;
+}
+.Copiar:hover,
+.Encriptar:hover,
+.Desencripta:hover {
+  background-color: rgb(98, 98, 176);
+}
+@media screen and (max-width: 480px) {
+  .contenedor,
+  .contenido,
+  .resultados {
+    width: auto;
+  }
+  .contenido {
+    height: 20%;
+    margin: 15px 15px;
+  }
+  .contenido p {
+    height: 100px;
+  }
+  .Encriptar,
+  .Desencripta {
+    width: 100%;
+    margin: 5px;
+  }
+}

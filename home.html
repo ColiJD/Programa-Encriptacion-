@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador</title>
+  </head>
+  <header>
+    <img class="logo" src="img/Logo-1.png" alt="Logo principal " />
+  </header>
+  <body>
+    <main>
+      <ul class="contenedor">
+        <li class="contenido">
+          <textarea
+            class="parrafo"
+            id="parrafo"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+          <div class="boton">
+            <button class="Encriptar" id="btn-encriptar">Encriptar</button>
+            <button class="Desencripta" id="btn-desencriptar">
+              Desencriptar
+            </button>
+          </div>
+        </li>
+        <li class="resultados">
+          <textarea
+            class="mensajeEncriptado"
+            id="mensajeEncriptado "
+            placeholder="Mensaje Codificado"
+          ></textarea>
+          <img class="lupa" src="img/Muñeco.png" alt="" />
+          <button class="Copiar" id="btn-copiar">Copiar</button>
+        </li>
+      </ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
